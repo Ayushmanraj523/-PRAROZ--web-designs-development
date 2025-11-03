@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - PraRoz Web Design & Development Course</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="public/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="public/assets/fonts/fontawesome.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="public/assets/fonts/google-fonts.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="public/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">
+                <span class="text-orange">Pra</span><span class="text-white">Roz</span><i class="fas fa-globe ms-2"></i>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html">SERVICE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="design.html">DESIGN</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                </ul>
+                
+                <div class="search-container d-flex">
+                    <input type="text" class="form-control search-input" placeholder="Search...">
+                    <button class="btn search-btn" type="button">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="hero-section">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-7 col-md-6">
+                    <div class="hero-content px-4">
+                        <h1 class="hero-title">
+                            <span class="text-white">Get In</span><br>
+                            <span class="text-orange gradient-text">Touch</span><br>
+                            <span class="text-white">With Us</span>
+                        </h1>
+                        <p class="hero-description text-white-50 my-4">
+                            Have questions about our courses? Need guidance on your career path? 
+                            Our expert counselors are here to help you choose the right program 
+                            and start your journey in web development. Contact us today!
+                        </p>
+                        <div class="contact-info mb-4">
+                            <div class="contact-item d-flex align-items-center mb-3">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-map-marker-alt text-orange"></i>
+                                </div>
+                                <div>
+                                    <h6 class="text-white mb-1">Address</h6>
+                                    <p class="text-white-50 small mb-0">Plot No. A/4 Center Market, Sector 8 Siwan More, Bokaro Steel City, Jharkhand, India</p>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex align-items-center mb-3">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-phone text-orange"></i>
+                                </div>
+                                <div>
+                                    <h6 class="text-white mb-1">Phone</h6>
+                                    <p class="text-white-50 small mb-0">+91-8987818616</p>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex align-items-center mb-4">
+                                <div class="contact-icon me-3">
+                                    <i class="fas fa-envelope text-orange"></i>
+                                </div>
+                                <div>
+                                    <h6 class="text-white mb-1">Email</h6>
+                                    <p class="text-white-50 small mb-0">ayushmanraj925@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn join-btn px-5 py-3 fw-bold">
+                            <i class="fas fa-phone me-2"></i>CALL NOW
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Right Contact/Login Form -->
+                <div class="col-lg-4 col-md-5 offset-lg-1 offset-md-1 floating-panel-wrapper">
+                    <!-- Contact Form -->
+                    <div class="login-form-container">
+                        <div class="login-header text-center mb-4">
+                            <div class="login-icon mb-3">
+                                <i class="fas fa-envelope text-orange"></i>
+                            </div>
+                            <h3 class="text-orange fw-bold mb-2">Send Message</h3>
+                            <p class="text-white-50 small">We'll get back to you within 24 hours</p>
+                        </div>
+                        
+                        <form class="contact-form">
+                            <div class="mb-3 input-group-modern">
+                                <div class="input-icon">
+                                    <i class="fas fa-user text-orange"></i>
+                                </div>
+                                <input type="text" class="form-control login-input" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="mb-3 input-group-modern">
+                                <div class="input-icon">
+                                    <i class="fas fa-envelope text-orange"></i>
+                                </div>
+                                <input type="email" class="form-control login-input" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="mb-3 input-group-modern">
+                                <div class="input-icon">
+                                    <i class="fas fa-phone text-orange"></i>
+                                </div>
+                                <input type="tel" class="form-control login-input" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="mb-3 input-group-modern">
+                                <div class="input-icon">
+                                    <i class="fas fa-tag text-orange"></i>
+                                </div>
+                                <select class="form-control login-input" required>
+                                    <option value="">Select Inquiry Type</option>
+                                    <option value="course">Course Information</option>
+                                    <option value="admission">Admission Process</option>
+                                    <option value="fees">Fee Structure</option>
+                                    <option value="placement">Placement Assistance</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 input-group-modern">
+                                <div class="input-icon" style="top: 20px;">
+                                    <i class="fas fa-comment text-orange"></i>
+                                </div>
+                                <textarea class="form-control login-input" rows="4" placeholder="Enter your message" style="padding-left: 45px !important;" required></textarea>
+                            </div>
+                            <button type="submit" class="btn login-btn w-100 fw-bold mb-3">
+                                <i class="fas fa-paper-plane me-2"></i>SEND MESSAGE
+                            </button>
+                            
+                            <div class="text-center mb-3">
+                                <span class="text-white-50">Existing student? </span>
+                                <a href="#" class="text-orange text-decoration-none fw-bold hover-glow login-toggle">Login here</a>
+                            </div>
+                            
+                            <div class="divider my-3">
+                                <span class="text-white-50 small">OR</span>
+                            </div>
+                            
+                            <div class="text-center">
+                                <p class="text-white-50 mb-3 small">Connect with us on social media</p>
+                                <div class="social-login d-flex justify-content-center gap-3">
+                                    <a href="#" class="social-icon" title="Facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social-icon" title="Google">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                                    <a href="#" class="social-icon" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon" title="LinkedIn">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="social-icon" title="GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Login Form (Hidden by default) -->
+                    <div class="student-login-container" style="display: none;">
+                        <div class="login-header text-center mb-4">
+                            <div class="login-icon mb-3">
+                                <i class="fas fa-user-circle text-orange"></i>
+                            </div>
+                            <h3 class="text-orange fw-bold mb-2">Student Login</h3>
+                            <p class="text-white-50 small">Access your student dashboard</p>
+                        </div>
+                        
+                        <form class="login-form">
+                            <div class="mb-3 input-group-modern">
+                                <div class="input-icon">
+                                    <i class="fas fa-envelope text-orange"></i>
+                                </div>
+                                <input type="email" class="form-control login-input" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="mb-4 input-group-modern">
+                                <div class="input-icon">
+                                    <i class="fas fa-lock text-orange"></i>
+                                </div>
+                                <input type="password" class="form-control login-input" placeholder="Enter your password" required>
+                            </div>
+                            <button type="submit" class="btn login-btn w-100 fw-bold mb-3">
+                                <i class="fas fa-sign-in-alt me-2"></i>LOGIN
+                            </button>
+                            
+                            <div class="text-center">
+                                <span class="text-white-50">Need help? </span>
+                                <a href="#" class="text-orange text-decoration-none fw-bold hover-glow contact-toggle">Contact us</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="public/vendor/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="public/js/main.js"></script>
+    <script>
+        // Contact form toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const loginToggle = document.querySelector('.login-toggle');
+            const contactToggle = document.querySelector('.contact-toggle');
+            const contactForm = document.querySelector('.login-form-container');
+            const loginForm = document.querySelector('.student-login-container');
+            
+            if (loginToggle) {
+                loginToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    contactForm.style.display = 'none';
+                    loginForm.style.display = 'block';
+                });
+            }
+            
+            if (contactToggle) {
+                contactToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loginForm.style.display = 'none';
+                    contactForm.style.display = 'block';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
