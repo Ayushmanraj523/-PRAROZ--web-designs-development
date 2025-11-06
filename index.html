@@ -4,22 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PraRoz - Web Design & Development Course</title>
-    
-    <!-- Bootstrap CSS -->
     <link href="public/vendor/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="public/assets/fonts/fontawesome.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="public/assets/fonts/google-fonts.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="public/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid px-4">
             <a class="navbar-brand fw-bold fs-3" href="index.html">
-                <span class="text-orange">Pra</span><span class="text-white">Roz</span><i class="fas fa-globe ms-2"></i>
+                <span class="text-orange">Pra</span><span class="text-white">Roz</span>
+                <i class="fas fa-globe ms-2"></i>
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -43,11 +38,9 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main class="hero-section">
         <div class="container-fluid h-100">
             <div class="row h-100 align-items-center">
-                <!-- Left Content -->
                 <div class="col-lg-7 col-md-6">
                     <div class="hero-content px-4">
                         <h1 class="hero-title">
@@ -57,8 +50,7 @@
                         </h1>
                         <p class="hero-description text-white-50 my-4">
                             Master modern web technologies with our comprehensive course. Learn HTML5, CSS3, JavaScript, 
-                            React, and more from industry experts. Build real-world projects and launch your career 
-                            in web development with confidence.
+                            React, and more from industry experts.
                         </p>
                         <button class="btn join-btn px-5 py-3 fw-bold">
                             <i class="fas fa-rocket me-2"></i>JOIN US
@@ -66,7 +58,6 @@
                     </div>
                 </div>
                 
-                <!-- Right Login Form -->
                 <div class="col-lg-4 col-md-5 offset-lg-1 offset-md-1 floating-panel-wrapper">
                     <div class="login-form-container">
                         <div class="login-header text-center mb-4">
@@ -74,7 +65,7 @@
                                 <i class="fas fa-user-circle text-orange"></i>
                             </div>
                             <h3 class="text-orange fw-bold mb-2">Welcome Back</h3>
-                            <p class="text-white-50 small">Sign in to continue your learning journey</p>
+                            <p class="text-white-50 small">Sign in to continue learning</p>
                         </div>
                         
                         <form class="login-form">
@@ -82,21 +73,21 @@
                                 <div class="input-icon">
                                     <i class="fas fa-envelope text-orange"></i>
                                 </div>
-                                <input type="email" class="form-control login-input" placeholder="Enter your email address" required>
+                                <input type="email" class="form-control login-input" placeholder="Enter email" required>
                             </div>
                             <div class="mb-4 input-group-modern">
                                 <div class="input-icon">
                                     <i class="fas fa-lock text-orange"></i>
                                 </div>
-                                <input type="password" class="form-control login-input" placeholder="Enter your password" required>
+                                <input type="password" class="form-control login-input" placeholder="Enter password" required>
                             </div>
                             <button type="submit" class="btn login-btn w-100 fw-bold mb-3">
                                 <i class="fas fa-sign-in-alt me-2"></i>LOGIN
                             </button>
                             
                             <div class="text-center mb-3">
-                                <span class="text-white-50">Don't have an account? </span>
-                                <a href="#" class="text-orange text-decoration-none fw-bold hover-glow signup-link">Sign up here</a>
+                                <span class="text-white-50">Don't have account? </span>
+                                <a href="#" class="text-orange text-decoration-none fw-bold signup-link">Sign up</a>
                             </div>
                             
                             <div class="divider my-3">
@@ -104,36 +95,23 @@
                             </div>
                             
                             <div class="text-center">
-                                <p class="text-white-50 mb-3 small">Continue with social media</p>
                                 <div class="social-login d-flex justify-content-center gap-3">
-                                    <a href="#" class="social-icon" title="Facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="social-icon" title="Google">
-                                        <i class="fab fa-google"></i>
-                                    </a>
-                                    <a href="#" class="social-icon" title="Twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="social-icon" title="LinkedIn">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="social-icon" title="GitHub">
-                                        <i class="fab fa-github"></i>
-                                    </a>
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </form>
                     </div>
 
-                    <!-- Signup Form (Hidden by default) -->
                     <div class="signup-form-container" style="display: none;">
                         <div class="login-header text-center mb-4">
                             <div class="login-icon mb-3">
                                 <i class="fas fa-user-plus text-orange"></i>
                             </div>
                             <h3 class="text-orange fw-bold mb-2">Join PraRoz</h3>
-                            <p class="text-white-50 small">Create your account and start learning</p>
+                            <p class="text-white-50 small">Create account and start learning</p>
                         </div>
                         
                         <form class="signup-form">
@@ -141,44 +119,55 @@
                                 <div class="input-icon">
                                     <i class="fas fa-user text-orange"></i>
                                 </div>
-                                <input type="text" class="form-control login-input" placeholder="Enter your full name" required>
+                                <input type="text" class="form-control login-input" placeholder="Full name" required>
                             </div>
                             <div class="mb-3 input-group-modern">
                                 <div class="input-icon">
                                     <i class="fas fa-envelope text-orange"></i>
                                 </div>
-                                <input type="email" class="form-control login-input" placeholder="Enter your email address" required>
+                                <input type="email" class="form-control login-input" placeholder="Email address" required>
                             </div>
                             <div class="mb-3 input-group-modern">
                                 <div class="input-icon">
                                     <i class="fas fa-phone text-orange"></i>
                                 </div>
-                                <input type="tel" class="form-control login-input" placeholder="Enter your phone number" required>
+                                <input type="tel" class="form-control login-input" placeholder="Phone number" required>
                             </div>
                             <div class="mb-4 input-group-modern">
                                 <div class="input-icon">
                                     <i class="fas fa-lock text-orange"></i>
                                 </div>
-                                <input type="password" class="form-control login-input" placeholder="Create a password" required>
+                                <input type="password" class="form-control login-input" placeholder="Create password" required>
                             </div>
                             <button type="submit" class="btn login-btn w-100 fw-bold mb-3">
                                 <i class="fas fa-user-plus me-2"></i>CREATE ACCOUNT
                             </button>
                             
                             <div class="text-center">
-                                <span class="text-white-50">Already have an account? </span>
-                                <a href="#" class="text-orange text-decoration-none fw-bold hover-glow login-link">Login here</a>
+                                <span class="text-white-50">Have account? </span>
+                                <a href="#" class="text-orange text-decoration-none fw-bold login-link">Login</a>
                             </div>
                         </form>
+                    </div>
+                    
+                    <div class="success-message-container" style="display: none;">
+                        <div class="text-center">
+                            <div class="success-icon mb-4">
+                                <i class="fas fa-check-circle text-orange" style="font-size: 5rem;"></i>
+                            </div>
+                            <h3 class="text-white fw-bold mb-3">Welcome to PraRoz!</h3>
+                            <p class="text-white-50 mb-4">Successfully logged in. Start your learning journey.</p>
+                            <button class="btn join-btn px-4 py-2 fw-bold explore-btn">
+                                <i class="fas fa-graduation-cap me-2"></i>EXPLORE COURSES
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- Bootstrap JS -->
     <script src="public/vendor/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
     <script src="public/js/main.js"></script>
 </body>
 </html>

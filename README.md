@@ -1,114 +1,70 @@
 # PraRoz - Web Design & Development Course
 
-## Project Overview
+> A professional multi-page website showcasing modern web development practices and responsive design principles.
 
-PraRoz is a professional multi-page website for a web design and development course platform. The project demonstrates modern web development practices, industry-standard code organization, and responsive design principles.
+## 🚀 Quick Start
 
-## Technologies Used
+1. Clone or download the repository
+2. Open `index.html` in your browser
+3. No build process required - runs directly in browser
 
-- **HTML5** - Semantic markup and modern web standards
-- **CSS3** - Advanced styling with Grid and Flexbox
-- **Bootstrap 5** - Responsive framework and components
-- **JavaScript (ES6+)** - Interactive functionality and animations
-- **Font Awesome 6.4.0** - Professional icon library
-- **Google Fonts (Inter)** - Modern typography system
+## 📋 Overview
 
-## Project Structure
+PraRoz is a complete web design and development course platform featuring five responsive pages with modern animations, glassmorphism UI, and professional structure.
+
+## 🛠️ Tech Stack
+
+- **HTML5** - Semantic markup
+- **CSS3** - Grid, Flexbox, animations
+- **Bootstrap 5** - Responsive framework
+- **JavaScript ES6+** - Interactive functionality
+- **Font Awesome 6.4.0** - Icons
+- **Google Fonts (Inter)** - Typography
+
+## 📁 Project Structure
+
 ```
--PRAROZ--web-designs-development/
-├── index.html                    # Main homepage
-├── about.html                    # About page
-├── service.html                  # Services page
-├── design.html                   # Design portfolio page
-├── contact.html                  # Contact page
-├── README.md                     # Project documentation
-├── PROJECT_STRUCTURE.md          # Detailed structure guide
-│
-└── public/                       # Public assets
-    ├── css/                      # Custom stylesheets
-    │   └── style.css             # Main stylesheet
-    ├── js/                       # JavaScript files
-    │   └── main.js               # Main JavaScript
-    ├── vendor/                   # Third-party libraries
-    │   ├── bootstrap.min.css     # Bootstrap CSS
-    │   └── bootstrap.bundle.min.js # Bootstrap JS
-    └── assets/                   # Static assets
-        ├── fonts/                # Font files
-        └── images/               # Image files
+├── index.html              # Homepage
+├── about.html              # About page
+├── service.html            # Services page
+├── design.html             # Portfolio page
+├── contact.html            # Contact page
+└── public/
+    ├── css/
+    │   └── style.css       # Main stylesheet
+    ├── js/
+    │   └── main.js         # Main JavaScript
+    ├── vendor/             # Bootstrap files
+    └── assets/
+        ├── fonts/
+        └── images/
 ```
 
-## Key Features
+## ✨ Features
 
-- **Multi-page Architecture** - Five complete responsive pages
-- **Floating Login Panels** - Animated login/signup forms with smooth transitions
-- **Modern Animations** - Morphing effects, floating panels, and interactive elements
-- **Professional Design** - Beautiful moonlit background with glassmorphism effects
-- **Indian Pricing** - Course prices in Indian Rupees (₹)
-- **Responsive Design** - Optimized for all devices and screen sizes
-- **Form Validation** - Client-side validation with user feedback
-- **Professional Structure** - Industry-standard folder organization
+- 🎨 **Glassmorphism UI** - Modern glass effects
+- 📱 **Fully Responsive** - Mobile-first design
+- 🔄 **Smooth Animations** - Floating panels and transitions
+- 📝 **Form Validation** - Client-side validation
+- 🌙 **Beautiful Design** - Moonlit background theme
+- 💰 **Indian Pricing** - Localized currency (₹)
 
-## Installation
+## 🌐 Browser Support
 
-### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-
-### Setup
-1. Download and extract project files
-2. Open `index.html` in web browser (root directory)
-3. All dependencies included locally
-4. No server setup required - runs directly in browser
-
-## Pages
-
-- **Home** - Hero section with login/signup forms
-- **About** - Company overview and team information
-- **Services** - Course catalog with pricing
-- **Design** - Portfolio showcase with filtering
-- **Contact** - Contact form and business information
-
-## Technical Implementation
-
-### Frontend
-- Semantic HTML5 markup
-- CSS Grid and Flexbox layouts
-- Modern JavaScript (ES6+)
-- Bootstrap 5 components
-- Responsive design patterns
-
-### Features
-- **Floating Animations** - Subtle morphing and floating login panels
-- **Glassmorphism UI** - Modern glass-like effects with backdrop blur
-- **Interactive Forms** - Smooth transitions between login and signup
-- **Background Integration** - Beautiful moonlit landscape background
-- **Indian Localization** - Pricing in Indian Rupees and local contact info
-- **Professional Navigation** - Clean, responsive navigation with hover effects
-- **Mobile-first Design** - Optimized for all devices and screen sizes
-
-## Browser Support
-
-- Google Chrome 90+
-- Mozilla Firefox 88+
+- Chrome 90+
+- Firefox 88+
 - Safari 14+
-- Microsoft Edge 90+
-- Mobile browsers
+- Edge 90+
 
-## Contact Information
+## 📞 Contact
 
-**Address:** Plot No. A/4 Center Market, Sector 8 Siwan More, Bokaro Steel City, Jharkhand, India  
-**Phone:** +91-8987818616  
-**Email:** ayushmanraj925@gmail.com
+**Email:** ayushmanraj925@gmail.com  
+**Location:** Bokaro Steel City, Jharkhand, India
 
-## Project Details
+## 📄 License
 
-- **Type:** Professional Frontend Web Application
-- **Status:** Production Ready
-- **Pages:** 5 complete responsive pages
-- **Code Quality:** Industry Standard
-- **Last Updated:** November 2024
+MIT License - see LICENSE file for details
 
 ---
 
-**Version:** 1.0.0  
-**License:** MIT License  
-**Maintainer:** Ayushman Raj
+**Version:** 1.0.0 | **Status:** Production Ready | **Maintainer:** Ayushman Raj
